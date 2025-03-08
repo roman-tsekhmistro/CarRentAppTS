@@ -1,0 +1,67 @@
+/** @format */
+
+@import 'tailwindcss';
+@import url(https://fonts.googleapis.com/css?family=Plus+Jakarta+Sans:200,300,regular,500,600,700,800,200italic,300italic,italic,500italic,600italic,700italic,800italic);
+
+@theme {
+  --color-primary-white: #ffffff;
+  --color-primary-light-100: #d6e4fd;
+  --color-primary-light-200: #aec8fc;
+  --color-primary-light-300: #85a8f8;
+  --color-primary-light-400: #658df1;
+  --color-primary-default-500: #3563e9;
+  --color-primary-dark-600: #264bc8;
+  --color-primary-dark-700: #1a37a7;
+  --color-primary-dark-800: #102587;
+  --color-primary-dark-900: #0a196f;
+
+  --color-secondary-dark-900: #040815;
+  --color-secondary-dark-800: #080c19;
+  --color-secondary-dark-700: #0d121f;
+  --color-secondary-dark-600: #131825;
+  --color-secondary-default-500: #1a202c;
+  --color-secondary-light-400: #596780;
+  --color-secondary-light-300: #90a3bf;
+  --color-secondary-light-200: #c3d4e9;
+  --color-secondary-light-100: #e0e9f4;
+
+  --color-success-dark-900: #3b6506;
+  --color-success-dark-800: #4c7a0b;
+  --color-success-dark-700: #659711;
+  --color-success-dark-600: #7fb519;
+  --color-success-default-500: #9cd323;
+  --color-success-light-400: #bce455;
+  --color-success-light-300: #d3f178;
+  --color-success-light-200: #e8faa6;
+  --color-success-light-100: #f5fcd2;
+
+  --color-error-dark-900: #7a0619;
+  --color-error-dark-800: #930b16;
+  --color-error-dark-700: #b71112;
+  --color-error-dark-600: #db2719;
+  --color-error-default-500: #ff4423;
+  --color-error-light-400: #ff7f59;
+  --color-error-light-300: #ffa37a;
+  --color-error-light-200: #ffc8a6;
+  --color-error-light-100: #ffe7d3;
+
+  --color-warning-dark-900: #7a4d0b;
+  --color-warning-dark-800: #936312;
+  --color-warning-dark-700: #b7821d;
+  --color-warning-dark-600: #dba32a;
+  --color-warning-default-500: #ffc73a;
+  --color-warning-light-400: #ffd96b;
+  --color-warning-light-300: #ffe488;
+  --color-warning-light-200: #ffefb0;
+  --color-warning-light-100: #fff8d7;
+
+  --color-info-dark-900: #102e7a;
+  --color-info-dark-800: #1a4393;
+  --color-info-dark-700: #2a60b7;
+  --color-info-dark-600: #3d81db;
+  --color-info-default-500: #54a6ff;
+  --color-info-light-400: #7ec2ff;
+  --color-info-light-300: #98d3ff;
+  --color-info-light-200: #bae5ff;
+  --color-info-light-100: #dcf3ff;
+}
