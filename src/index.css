@@ -1,7 +1,9 @@
 /** @format */
 
-@import 'tailwindcss';
-@import url(https://fonts.googleapis.com/css?family=Plus+Jakarta+Sans:200,300,regular,500,600,700,800,200italic,300italic,italic,500italic,600italic,700italic,800italic);
+@layer {
+  @import 'tailwindcss';
+  @import url(https://fonts.googleapis.com/css?family=Plus+Jakarta+Sans:200,300,regular,500,600,700,800,200italic,300italic,italic,500italic,600italic,700italic,800italic);
+}
 
 @theme {
   --color-primary-white: #ffffff;
@@ -64,4 +66,6 @@
   --color-info-light-300: #98d3ff;
   --color-info-light-200: #bae5ff;
   --color-info-light-100: #dcf3ff;
+
+  --default-font-family: 'Plus Jakarta Sans', sans-serif;
 }
