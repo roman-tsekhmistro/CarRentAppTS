@@ -17,14 +17,14 @@ const FilterBtn = () => {
   return (
     <button
       onClick={toggleFilterMenu}
-      className={`relative flex items-center justify-center h-9 w-9 right-10 p-2 rounded-full ${
+      className={`relative flex items-center justify-center h-9 w-9 right-10 p-2 rounded-full transition-all duration-300 ${
         showFilterMenu ? 'bg-primary-light-400' : ''
       }`}
     >
       <img
         src={filter}
         alt='filter button'
-        className='w-6 h-6 hover:cursor-pointer'
+        className='w-6 h-6 hover:cursor-pointer '
         onClick={() => toggleFilterMenu()}
       />
       <FilterMenu showFilterMenu={showFilterMenu} />

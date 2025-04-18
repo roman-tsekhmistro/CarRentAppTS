@@ -8,6 +8,9 @@ import {
 } from '@react-router/dev/routes';
 
 export default [
-  layout('./layouts/PublicLayout.tsx', [index('./pages/Home.tsx')]),
-  route('likes', './pages/Likes.tsx'),
+  index('./pages/welcome.tsx'),
+  layout('./layouts/PublicLayout.tsx', [
+    route('main', './pages/main.tsx'),
+    route('likes', './pages/likes.tsx'),
+  ]),
 ] satisfies RouteConfig;

@@ -1,11 +1,11 @@
 /** @format */
 
-import Home from './pages/Home';
+import PublicLayout from '@layouts/PublicLayout';
 
 function App() {
   return (
-    <div className='bg-[#F6F7F9] h-screen w-full flex flex-col items-center'>
-      <Home />
+    <div className='bg-[#F6F7F9] h-full w-full flex flex-col items-center'>
+      <PublicLayout />
     </div>
   );
 }
