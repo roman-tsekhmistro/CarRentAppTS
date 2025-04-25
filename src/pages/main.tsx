@@ -1,7 +1,13 @@
 /** @format */
 
+import HeroCards from '@components/HeroCards';
+
 const Main = () => {
-  return <h1 className='z-10 h-screen w-screen bg-amber-500 pt-32'>HELLO!</h1>;
+  return (
+    <div className='flex flex-col items-start justify-start h-screen w-full'>
+      <HeroCards />
+    </div>
+  );
 };
 
 export default Main;
