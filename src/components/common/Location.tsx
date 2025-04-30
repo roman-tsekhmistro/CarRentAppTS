@@ -25,7 +25,7 @@ const Location = ({ heading, icon }: LocationProps) => {
     },
   ];
 
-  const [selectedOption, setSelectedOption] = useState(null);
+  const [selectedOption] = useState();
 
   return (
     <div className='flex flex-col w-full max-w-[582px] gap-4 bg-white p-4 rounded-lg shadow-md text-base'>
@@ -36,20 +36,11 @@ const Location = ({ heading, icon }: LocationProps) => {
       <ul className='flex gap-4 justify-between items-center'>
         {locationData.map(({ heading, selectData }, index) => (
           <li
-            className='flex flex-col gap-2  max-w-[134px] w-full relative after:content-[""] after:absolute after:top-0 after:-right-6 after:w-[1px] after:h-full after:bg-[#C3D4E9] last:after:hidden'
+            className='flex flex-col gap-2  max-w-[134px] w-full relative after:content-[""] after:absolute after:top-0 after:-right-9 after:w-[1px] after:h-full after:bg-[#C3D4E9] last:after:hidden'
             key={heading + index}
           >
             <p className='font-bold'>{heading}</p>
-            <Select
-              unstyled
-              classNames={{
-                valueContainer: () => 'border-none p-0',
-                input: () => '',
-              }}
-              defaultValue={selectedOption}
-              onChange={setSelectedOption}
-              options={selectData}
-            />
+            <Select defaultValue={selectedOption} options={selectData} />
           </li>
         ))}
       </ul>
